@@ -26,7 +26,7 @@ function App() {
     };
 
     const deleteItem = (index) => {
-        const updatedItems = items.filter((_, i) => i !== index);
+        const updatedItems = items.filter((_, i) => i !== index); 
         setItems(updatedItems);
     };
 
