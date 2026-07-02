@@ -15,7 +15,7 @@ function App() {
 
         if (savedItems) {
             setItems(savedItems);
-        }
+        
     }, []);
     useEffect(() => {
         localStorage.setItem("items", JSON.stringify(items));
